@@ -1,0 +1,56 @@
+---
+title: "analysis report"
+author: David Barnett
+date: last-modified
+format: html
+theme: 
+  dark: darkly
+  light: flatly
+embed-resources: true
+toc: true
+toc-location: left
+toc-depth: 4
+fig-dpi: 300
+fig-width: 7.5
+fig-height: 5
+fig-responsive: false
+code-tools: true
+code-fold: true
+code-link: true
+---
+
+```{r}
+# load packages, do you need data packages?
+library(tidyverse)
+library(here)
+
+```
+
+## Intro
+
+aims and preamble
+
+## Get data
+
+```{r}
+
+```
+
+## Analysis
+
+```{r}
+
+```
+
+## More Info
+
+-   Created following instructions here:\
+    <https://quarto.org/docs/extensions/starter-templates.html>
+-   Learn more about controlling the appearance of HTML output here:\
+    <https://quarto.org/docs/output-formats/html-basics.html>
+
+## Session info
+
+```{r}
+sessioninfo::session_info()
+```
