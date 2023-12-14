@@ -3,7 +3,7 @@ title: "analysis report"
 author: David Barnett
 date: last-modified
 format: html
-keep-md: true
+keep-md: false
 theme: 
   dark: darkly
   light: flatly
