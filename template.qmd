@@ -14,7 +14,7 @@ toc-depth: 4
 fig-dpi: 300
 fig-width: 7.5
 fig-height: 5
-fig-responsive: false
+fig-responsive: true
 code-tools: true
 code-fold: true
 code-link: true
