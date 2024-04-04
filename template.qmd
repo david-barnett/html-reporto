@@ -22,7 +22,7 @@ code-link: true
 
 ```{r}
 # load packages, do you need data packages?
-library(tidyverse)
+library(tidyverse) # do you really need the whole tidyverse?
 library(here)
 
 ```
