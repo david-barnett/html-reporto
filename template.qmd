@@ -1,30 +1,39 @@
 ---
-title: "analysis report"
+title: "TITLE"
 author: David Barnett
 date: last-modified
 format: html
 keep-md: false
 theme: 
-  dark: darkly
   light: flatly
+  dark: darkly
 embed-resources: true
+code-block-border-left: true
+code-block-bg: true
 toc: true
-toc-location: left
+toc-location: right
 toc-depth: 4
+toc-expand: 3
+number-sections: true
+number-depth: 3
+fig-align: center
 fig-dpi: 300
 fig-width: 7.5
 fig-height: 5
 fig-responsive: true
 code-tools: true
 code-fold: true
-code-link: true
+code-link: false
+lightbox: auto
+cache: false
 ---
 
 ```{r}
 # load packages, do you need data packages?
 library(tidyverse) # do you really need the whole tidyverse?
 library(here)
-
+library(phyloseq)
+library(microViz)
 ```
 
 ## Intro
@@ -52,6 +61,10 @@ aims and preamble
 
 ## Session info
 
+<details>
+
 ```{r}
 sessioninfo::session_info()
 ```
+
+</details>
