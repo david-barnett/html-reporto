@@ -46,15 +46,43 @@ aims and preamble
 
 ```
 
-## Analysis
+## Formatting examples
+
+### Tabset
+
+::: panel-tabset
+#### A
 
 ```{r}
-
+plot(mtcars)
 ```
 
-## More Info
+#### B
 
--   Created following instructions here:\
+```{r}
+plot(chickwts)
+```
+:::
+
+### Callout
+
+::: {.callout-note collapse="true"}
+### A collapsed callout
+
+```{r}
+#| code-fold: show
+# hello
+```
+:::
+
+### Link
+
+
+
+## More Quarto Info
+
+-   <https://r4ds.hadley.nz/quarto>
+-   Template created following instructions here:\
     <https://quarto.org/docs/extensions/starter-templates.html>
 -   Learn more about controlling the appearance of HTML output here:\
     <https://quarto.org/docs/output-formats/html-basics.html>
@@ -64,6 +92,7 @@ aims and preamble
 <details>
 
 ```{r}
+#| code-fold: false
 sessioninfo::session_info()
 ```
 
